@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    background: linear-gradient(170deg, transparent 80%, #91CBCF 30%),
+                linear-gradient(156deg, transparent 68%, #E3D9C3 30%),
+                linear-gradient(135deg, transparent 60%, #91CBCF 30%),
+                linear-gradient(115deg, transparent 55%, #E3D9C3 30%),
+                linear-gradient(65deg, transparent 45%, #91CBCF 30%),
+                linear-gradient(45deg, transparent 40%, #E3D9C3 30%),
+                linear-gradient(24deg, transparent 32%, #91CBCF 30%),
+                linear-gradient(10deg, transparent 20%, #E3D9C3 20%),
+                linear-gradient(0deg, transparent 0%,  #91CBCF 0%);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.ready-title {
+    text-align: center;
+}
+
+.create-title {
+    position: relative;
+    left: 110px;
+    bottom: 57px;
+}
+
+.title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 28px;
+}
+
+.header {
+    display: flex;
+    align-items: unset;
+    justify-content: center;
+}
+
+.btn {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.ready-img {
+    padding: 50px;
+}
+
+.beard-btn {
+    position: relative;
+    right: 253px;
+    bottom: 47px;
+}
+
+.glass-btn {
+    position: relative;
+    right: 427px;
+    bottom: 194px;
+}
+
+.hat-btn {
+    position: relative;
+    right: 20px;
+    bottom: 394px;
+}
+
+.hair-btn {
+    position: relative;
+    bottom: 800px;
+    right: 22px;
+}
+
+.shirt-btn {
+    position: relative;
+    bottom: 788px;
+    right: 364px;
+}
+
+.create-ava-man {
+    margin: 93px 0px 0px 146px;
+    width: 700px;
+}
