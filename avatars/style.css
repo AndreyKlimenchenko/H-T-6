@@ -50,35 +50,53 @@ body {
 
 .beard-btn {
     position: relative;
-    right: 253px;
-    bottom: 47px;
+    bottom: 209px;
+    left: 72px;
+    visibility: hidden;
 }
 
 .glass-btn {
     position: relative;
-    right: 427px;
-    bottom: 194px;
+    bottom: 359px;
+    right: 103px;
+    visibility: hidden;
 }
 
 .hat-btn {
     position: relative;
     right: 20px;
-    bottom: 394px;
+    bottom: 558px;
+    visibility: hidden;
 }
 
 .hair-btn {
     position: relative;
-    bottom: 800px;
-    right: 22px;
+    bottom: 954px;
+    right: 20px;
+    visibility: hidden;
 }
 
 .shirt-btn {
     position: relative;
-    bottom: 788px;
-    right: 364px;
+    bottom: 1096px;
+    right: 0px;
 }
 
 .create-ava-man {
     margin: 93px 0px 0px 146px;
-    width: 700px;
+    width: 400px;
+}
+
+.type-btn {
+    margin: 10px;
+    border: solid 1px grey;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.btn-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
 }

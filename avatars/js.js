@@ -16,7 +16,7 @@ function imgsrcb() {
 
 let c=0;
 let imagec=document.getElementById("beard");
-let imgsc=new Array('./img/beard1.png','./img/beard2.png','./img/beard3.png');
+let imgsc=new Array('./img/beard1.png','./img/beard2.png','./img/beard3.png','');
 function imgsrcc() {
     c++;c%=imgsc.length;
     if(!imgsc[c]){
@@ -30,7 +30,7 @@ function imgsrcc() {
 
 let d=0;
 let imaged=document.getElementById("glass");
-let imgsd=new Array('./img/glas1.png','./img/glas2.png','./img/glas3.png');
+let imgsd=new Array('./img/glas1.png','./img/glas2.png','./img/glas3.png','');
 function imgsrcd() {
     d++;d%=imgsd.length;
     if(!imgsd[d]){
@@ -52,13 +52,13 @@ function imgsrce() {
         return;
         }
         
-    imagee.src = imgsd[e];
+    imagee.src = imgse[e];
     imagee.style.visibility="visible";
 };
 
 let f=0;
 let imagef=document.getElementById("hair");
-let imgsf=new Array('./img/m1.png','./img/m2.png','./img/m3.png','./img/m4.png','./img/m5.png','./img/m6.png','./img/w1.png','./img/w2.png','./img/w3.png','./img/w4.png','./img/w5.png','./img/w6.png');
+let imgsf=new Array('./img/m1.png','./img/m2.png','./img/m3.png','./img/m4.png','./img/m5.png','./img/m6.png','./img/w1.png','./img/w2.png','./img/w3.png','./img/w4.png','./img/w5.png','./img/w6.png','');
 function imgsrcf() {
     f++;f%=imgsf.length;
     if(!imgsf[f]){
