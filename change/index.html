@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Домашнее задание №8">
+    <meta name="author" content="Андрей Клименченко FE108">
+    <title>change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn choose" id="change" onClick="handleChangeHeader();">Choose your style</button>
+    <nav class="nav1">
+        <div class="logo-container logo1">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <div class="btn-container1">
+            <button class="btn btn1">
+                Home
+            </button>
+            <button class="btn btn1">
+                Blog
+            </button>
+            <button class="btn btn1">
+                About
+            </button>
+            <button class="btn btn1">
+                Contact
+            </button>
+        </div>
+    </nav>
+
+    <nav class="nav2">
+        <div class="logo-container logo2">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <div class="btn-container2">
+            <button class="btn btn2">
+                Home
+            </button>
+            <button class="btn btn2">
+                About
+            </button>
+            <button class="btn btn2">
+                Pricing
+            </button>
+            <button class="btn btn2">
+                Register
+            </button>
+            <button class="btn sign">
+                Sign in
+            </button>
+        </div>
+    </nav>
+
+    <nav class="nav3">
+        <div class="logo-container logo3">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <div class="btn-container3">
+            <button class="btn btn3">
+                Home
+            </button>
+            <button class="btn btn3">
+                About
+            </button>
+            <select class="select" name="documentation" id="documentation">
+                <div class="option-container">
+                    <option value="0" disabled selected>
+                        Documentation
+                    </option>
+                    <option value="1">
+                        Learn how to code
+                    </option>
+                    <option value="2">
+                        View API docs
+                    </option>
+                    <option value="3">
+                        Compare all plans
+                    </option>
+                    <option value="4">
+                        View our demo page
+                    </option>
+                </div>
+            </select>
+            <button class="btn social-btn">
+                <img src="./img/socialin.png" alt="in">
+            </button>
+            <button class="btn social-btn">
+                <img src="./img/socialtwit.png" alt="twit">
+            </button>
+        </div>
+    </nav>
+
+    <nav class="nav4">
+        <div class="logo-container logo4">
+            <img src="./img/logo2.png" alt="logo2">
+        </div>
+        <div class="btn-container4">
+            <form>
+                <div class="search-form">
+                    <img src="./img/search.png" alt="search">
+                    <input class="input" type="search" name="search" placeholder="Find something">
+                </div>
+            </form>
+            <button class="btn btn4">
+                Customise
+            </button>
+            <button class="btn btn4">
+                Uploads
+            </button>
+            <button class="btn btn4">
+                Pages
+            </button>
+            <button class="btn btn4">
+                Dashboard
+            </button>
+            <button class="btn btn4">
+                <img src="./img/Vector.png" alt="vector">
+            </button>
+            <div class="list-container">
+                <img src="./img/face.png" alt="face">
+                <ul class="list">
+                    <li class="variant">
+                        View profile
+                    </li>
+                    <li>
+                        Settings
+                    </li>
+                    <li>
+                        Account
+                    </li>
+                    <li>
+                        Help section
+                    </li>
+                    <li>
+                        Logout
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="./js.js"></script>
+</body>
+</html>
