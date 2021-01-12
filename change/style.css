@@ -70,6 +70,7 @@ body {
 }
 
 .nav4 {
+    position: relative;
     background-color: #0A0A0A;
 }
 
@@ -163,7 +164,6 @@ body {
 }
 
 .btn4:hover {
-    font-weight: bold;
     color: #11F3A2;
 }
 
@@ -189,29 +189,47 @@ body {
 }
 
 .list-container {
-    position: relative;
-}
-
-.list {
-    display: none;
-}
-
-.list-container:hover .list {
-    display: block;
     position: absolute;
-    right: 5px;
-    width: 120px;
-    text-align: right;
+    box-sizing: border-box;
+    width: 110px;
+    top: 15px;
+    right: 0px;
+    height: 50px;
+    overflow: hidden;
+    transition: .3s;
+    text-align: right; 
+}
+
+.list{
     list-style-type: none;
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    padding: 8px;
+    box-sizing: border-box;
     background: #FFFFFF;
     border-radius: 5px;
 }
-
-.variant:hover {
-    font-weight: bold;
+.variant{
+    margin-bottom: 10px;
+    color: #000000;
     font-size: 16px;
     line-height: 19px;
+}
+.face{
+   position: absolute;
+   right: 0px;
+}
+
+.list-container:hover{
+    height: 300px; 
+    text-align: right; 
+}
+
+.variant:hover {
+    color: #11F3A2;
     background: #F7FAFC;
+    cursor: pointer;
 }
 
 .choose {
